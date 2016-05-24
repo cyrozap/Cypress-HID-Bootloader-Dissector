@@ -24,6 +24,11 @@
 -- it will try to interpret the communication of any USB device
 -- using the vendor-specific interface class.
 
+-- Bootloader specifications were retrieved from the
+-- "Bootloader and Bootloadable 1.50" component datasheet,
+-- Document Number: 002-09794, Revised: November 12, 2015.
+-- http://www.cypress.com/documentation/component-datasheets/bootloader-and-bootloadable
+
 -- Create custom protocol for the Cypress USB HID bootloader.
 p_cybootloader = Proto("cybootloader", "Cypress Semiconductor USB HID bootloader protocol")
 
